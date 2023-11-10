@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, types
 logging.basicConfig(level=logging.INFO)
 
 # استبدال "TOKEN" بتوكن البوت الخاص بك
-bot = Bot(token="5929746761:AAHp2am3EDVenxSaIjW7qBaGEAuYjrHjcig")
+bot = Bot(token="6391905722:AAEiZbF2xyO6Xz0m_TKoWV2wWNaATcaooCw")
 dispatcher = Dispatcher(bot)
 
 @dispatcher.message_handler(commands=['start'])
